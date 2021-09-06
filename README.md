@@ -16,7 +16,7 @@ The model was trained on 2291 pairs of images and masks, with 250 images used fo
 
 # Test Set Performance
 The model performed quite well on the test set images. It obtained a solid Mean IoU (Intersection over Union9 score of 0.748, despite a modest number of training epochs. Here are some test set results which show the comparison between the true and predicted masks. <br/>
- ![Test Set](https://github.com/Aadit3003/Semantic-Segmentation-with-U-Nets/blob/cd1565d82dcd7db2b4ad40d28c481b0c3b0a03e1/Write%20Up/Test%20Set%20Results.png)
+ ![Test Set](https://github.com/Aadit3003/Semantic-Segmentation-with-U-Nets/blob/e9307f4bd23caade7e51a57257ef1e32abff4e02/Write%20Up/Test%20Set%20Results%20%202.png)
 # Possible Improvements
 These are some suggestions to improve the performance of the classic U-Net architecture:
 - **Increasing the number of training epochs**: Hardware accelerators like GPUs could significantly bring down training time, allowing for more passes through the dataset.
