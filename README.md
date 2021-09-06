@@ -19,10 +19,10 @@ The model performed quite well on the test set images. It obtained a solid Mean 
  ![Test Set](https://github.com/Aadit3003/Semantic-Segmentation-with-U-Nets/blob/e9307f4bd23caade7e51a57257ef1e32abff4e02/Write%20Up/Test%20Set%20Results%20%202.png)
 # Possible Improvements
 These are some suggestions to improve the performance of the classic U-Net architecture:
-- **Increasing the number of training epochs**: Hardware accelerators like GPUs could significantly bring down training time, allowing for more passes through the dataset.
-- **Data Augmentation**: Increasing the number of training samples would greatly enhance the quality of predictions.
+- **Data Augmentation**: Increasing the number of training samples and fixing some of the padding issue in the dataset would greatly help.
 - **Different Architecture**: TernausNet uses the U-Net model with VGG11 Encoder, that has shown impressive results with the ImageNet dataset.
-- 
+- **Increasing the number of training epochs**: Hardware accelerators like GPUs could significantly bring down training time, allowing for more passes through the dataset.
+
 # Applications
 U-Net and its variants find many applications in biomedical image segmentation tasks, such as:
 - *BraTS*: Multimodal Brain Tumour Segmentation
