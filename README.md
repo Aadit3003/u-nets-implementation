@@ -24,3 +24,4 @@ These are some suggestions to improve the performance of the classic U-Net archi
 U-Net and its variants find many applications in biomedical image segmentation tasks, such as:
 - *BraTS*: Multimodal Brain Tumour Segmentation
 - *Silver07*: Liver Image Segmentation
+- *2D EM Segmentation*: Segmentation of neuronal strucrures in EM stacks
