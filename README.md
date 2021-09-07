@@ -15,7 +15,7 @@ The U-Net model was implemented using the Keras Functional API from TensorFlow v
 The model was trained on 2291 pairs of images and masks, with 250 images used for validation. The remaining 300 images were used for testing. Since there were 2 output classes (water-body and non water-body), the Binary Cross Entropy Loss function was used for gradient descent, which was optimized using the Adam algorithm. Training took place over 18 epochs, with a batch size of 32.
 
 # Test Set Performance
-The model performed quite well on the test set images. It obtained a solid Mean IoU (Intersection over Union9 score of 0.748, despite a modest number of training epochs. Here are some test set results which show the comparison between the true and predicted masks. <br/>
+The model performed quite well on the test set images. It obtained a solid Mean IoU (Intersection over Union) score of 0.748, despite a modest number of training epochs. Here are some test set results which show the comparison between the true and predicted masks. <br/>
  ![Test Set](https://github.com/Aadit3003/Semantic-Segmentation-with-U-Nets/blob/e9307f4bd23caade7e51a57257ef1e32abff4e02/Write%20Up/Test%20Set%20Results%20%202.png)
 # Possible Improvements
 These are some suggestions to improve the performance of the classic U-Net architecture:
